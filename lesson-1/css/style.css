@@ -1,0 +1,59 @@
+/* Bu cssda comment hisoblanadi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* Bu usul sahifani normal holatga olib keladi. */
+
+.misol {
+    width: 100%; /* Bu divning uzunligin berad*/
+    height: 50px; /* Bu divning balandligini beradi */
+    background-color: red; /* Bu divning orqa fonini beradi*/
+    text-align: center; /* Bu textni o'rtaga olib keladi*/
+    color: white; /* Bu yozuv raningini beradi*/
+}
+
+.ramka {
+    width: 100%;
+    height: 60px;
+    margin: 10px 0 10px; /*Bu tashqaridan joy tashlab beradi.*/
+    padding: 15px 0 15px; /*Bu ichkaridan joy tashlab beradi*/
+}
+
+.ramka0 {
+    border: 3px solid black;
+    /* Bu divning chegarasini yaratib beradi to'liq korinishda
+    3px - qalinligini beradi,
+    solid - chagaraning turi,
+    black - chegaraning rangini berish hisoblanadi. */
+}
+
+.ramka1 {
+    border: 3px dotted blue;
+}
+
+.ramka2 {
+    border: 3px dashed blue;
+}
+
+.ramka3 {
+    border: 3px ridge blue;
+}
+
+.ramka4 {
+    border: 3px groove yellow;
+}
+
+.ramka5 {
+    border: 3px initial blue;
+}
+
+.ramka6 {
+    border: 3px inherit blue;
+}
+
+.ramka7 {
+    border: 3px inset blue;
+}
