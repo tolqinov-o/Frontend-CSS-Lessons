@@ -6,7 +6,12 @@
 
 /* 
 # - id boxiga style berish
-. - class boxiga style berish
+. - class boxiga style berish.
+Misol: 
+
+    h1... - bunday teglarda
+    hech qanday nuqta vergulsiz
+    chaqirib style bersa bo'ladi.
 */
 
 #firstId {
@@ -26,3 +31,48 @@ span {
     margin: 0 50px 10px;
     margin-top: 40px;
 }
+
+.box1 {
+    width: 100%;
+    height: 48vh;
+    background-color: aqua;
+}
+
+.box1 h1 {
+    text-align: center;
+    margin: 0 10px 0;
+    color: tomato;
+}
+/* Bunda ".box1 h1"
+            |   |
+    ichidagi    texti
+    chaqiriladi va style beriladi.
+    Shunga yana misol:
+ */
+
+.box1 .box2 {
+    width: 70%;
+    height: 20vh;
+    background-color: red;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+.box1 .box2 h3 {
+    text-align: center;
+    padding: 30px;
+}
+
+#text {
+    color: white;
+}
+
+/* 
+
+# - bu bilan xohlagan joydan 
+
+berilgan idini chaqirib style 
+
+bersa bo'ladi.
+
+*/
