@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#firstText {
+    text-align: center;
+    color: blue;
+    margin: 10px;
+}
+
+.box {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+.box h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+.box p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+.box {
+    margin: 20px;
+}
+
+.box0 p.a {
+  text-align-last: right;
+}
+
+.box0 p.b {
+  text-align-last: center;
+}
+
+.box0 p.c {
+  text-align-last: justify;
+}
+
+.box2 img.a {
+  vertical-align: baseline;
+}
+
+.box2 img.b {
+  vertical-align: text-top;
+}
+
+.box2 img.c {
+  vertical-align: text-bottom;
+}
+
+.box2 img.d {
+  vertical-align: sub;
+}
+
+.box2 img.e {
+  vertical-align: super;
+}
+
+.box3 h1 {
+  text-decoration: overline;
+}
+
+.box3 h2 {
+  text-decoration: line-through;
+}
+
+.box3 h3 {
+  text-decoration: underline;
+}
+
+.box3 p.ex {
+  text-decoration: overline underline;
+}
+
+.box4 p.uppercase {
+  text-transform: uppercase;
+}
+
+.box4 p.lowercase {
+  text-transform: lowercase;
+}
+
+.box4 p.capitalize {
+  text-transform: capitalize;
+}
