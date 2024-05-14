@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#firstText {
+    text-align: center;
+    color: blue;
+    margin: 10px;
+}
+
+.box {
+    border: 1px solid gray;
+    padding: 8px;
+    margin: 20px;
+}
+
+.box h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+/* unvisited link */
+.box0 p a:link {
+    color: red;
+}
+
+/* visited link */
+.box0 p a:visited {
+    color: green;
+}
+
+/* mouse over link */
+.box0 p a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+.box0 p a:active {
+    color: blue;
+}
+
+.box1 p a.one:link {
+    color:#ff0000;
+}
+
+.box1 p a.one:visited {
+    color:#0000ff;
+}
+
+.box1 p a.one:hover {
+    color:#ffcc00;
+}
+
+.box1 p a.two:link {
+    color:#ff0000;
+}
+
+.box1 p a.two:visited {
+    color:#0000ff;
+}
+
+.box1 p a.two:hover {
+    font-size:150%;
+}
+
+.box1 p a.three:link {
+    color:#ff0000;
+}
+
+.box1 p a.three:visited {
+    color:#0000ff;
+}
+
+.box1 p a.three:hover {
+    background:#66ff66;
+}
+
+.box1 p a.four:link {color:#ff0000;}
+.box1 p a.four:visited {color:#0000ff;}
+.box1 p a.four:hover {font-family:monospace;}
+
+.box1 p a.five:link {color:#ff0000;text-decoration:none;}
+.box1 p a.five:visited {color:#0000ff;text-decoration:none;}
+.box1 p a.five:hover {text-decoration:underline;}
