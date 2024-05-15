@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#firstText {
+    text-align: center;
+    color: blue;
+    margin: 10px;
+}
+
+.box {
+    padding: 8px;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+.box h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+.box0 {
+    text-align: center;
+}
+
+.box0 div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+} 
+
+.box0 div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+.container {
+    position: relative;
+}
+
+.black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+
+.gray-box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
+.green-box {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
+
+.box2 .scroll {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box2 .one {
+    background-color: coral;
+    overflow: scroll;
+}
+
+.box2 .two {
+    background-color: coral;
+    overflow: auto;
+}
+
+.box2 .three {
+    background-color: coral;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.box2 .four {
+    background-color: coral;
+    overflow: hidden;
+}

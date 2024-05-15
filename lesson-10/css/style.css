@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#firstText {
+    text-align: center;
+    color: blue;
+    margin: 10px;
+}
+
+.box {
+    padding: 8px;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+.box h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
