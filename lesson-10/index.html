@@ -3,15 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7 - CSS Dars || T.Oqilbek</title>
+    <title>10 - CSS Dars || T.Oqilbek</title>
 
     <!-- css links -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h1 id="firstText">CSS || 6 - Dars</h1>
+    <h1 id="firstText">CSS || 10 - Dars</h1>
     <hr>
+
+    <div class="box box0">
+        <h1>Responsive Form</h1> <br>
+        <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p> <br>
+
+        <div class="container">
+            <form action="?">
+                <div class="row">
+                    <div class="col-25">
+                    <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                    <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                    <label for="country">Country</label>
+                    </div>
+                    <div class="col-75">
+                    <select id="country" name="country">
+                        <option value="uzbekistan">Uzbekistan</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                    <label for="subject">Subject</label>
+                    </div>
+                    <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="box box1">
+        <h1>HTML/CSS Tutorials</h1>
+        <h2>HTML</h2>
+        <h2>CSS</h2>
+        <h2>Bootstrap</h2>
+        <h2>W3.CSS</h2>
+
+        <h1>Scripting Tutorials</h1>
+        <h2>JavaScript</h2>
+        <h2>jQuery</h2>
+        <h2>React</h2>
+
+        <h1>Programming Tutorials</h1>
+        <h2>Python</h2>
+        <h2>Java</h2>
+        <h2>C++</h2>
+    </div>
     
 </body>
 </html>
