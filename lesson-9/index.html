@@ -3,15 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7 - CSS Dars || T.Oqilbek</title>
+    <title>9 - CSS Dars || T.Oqilbek</title>
 
     <!-- css links -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <h1 id="firstText">CSS || 6 - Dars</h1>
+    <h1 id="firstText">CSS || 9 - Dars</h1>
     <hr>
+
+    <div class="box box0">
+        <h1>Transparent Box</h1> <br>
+        <p>With opacity:</p> <br>
+        <div style="opacity:0.1;"><p>10% opacity</p></div>
+        <div style="opacity:0.3;"><p>30% opacity</p></div>
+        <div style="opacity:0.6;"><p>60% opacity</p></div>
+        <div><p>opacity 1</p></div> <br>
+
+        <p>With RGBA color values:</p> <br>
+        <div class="first"><p>10% opacity</p></div>
+        <div class="second"><p>30% opacity</p></div>
+        <div class="third"><p>60% opacity</p></div>
+        <div><p>default</p></div> <br>
+
+        <p>Notice how the text gets transparent as well as the background color when using the opacity property.</p> <br> <br>
+
+        <div class="background">
+            <div class="transbox">
+              <p>This is some text that is placed in the transparent box.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box box1">
+        <h1>Responsive Image Gallery</h1> <br>
+
+        <h4>Resize the browser window to see the effect.</h4> <br>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://picsum.photos/600/400?random=4">
+                <img src="https://picsum.photos/600/400?random=4" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://picsum.photos/600/400?random=1">
+                <img src="https://picsum.photos/600/400?random=1" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://picsum.photos/600/400?random=2">
+                <img src="https://picsum.photos/600/400?random=2" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="https://picsum.photos/600/400?random=3">
+                <img src="https://picsum.photos/600/400?random=3" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div style="padding:6px;"> <br>
+        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+        <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+        </div>
+    </div>
     
 </body>
 </html>

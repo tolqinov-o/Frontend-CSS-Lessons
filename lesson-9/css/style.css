@@ -21,3 +21,81 @@
     text-transform: uppercase;
     color: #4CAF50;
 }
+
+.box0 div {
+    background: rgb(4, 170, 109);
+    padding: 10px;
+}
+
+.box0 div.first {
+    background: rgba(4, 170, 109, 0.1);
+}
+
+.box0 div.second {
+    background: rgba(4, 170, 109, 0.3);
+}
+
+.box0 div.third {
+    background: rgba(4, 170, 109, 0.6);
+}
+
+.box0 div.background {
+    background: url(../img/img2.jpg) repeat;
+    border: 2px solid black;
+}
+
+.box0 div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.box0 div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.box1 div.gallery {
+    border: 1px solid #ccc;
+}
+
+.box1 div.gallery:hover {
+    border: 1px solid #777;
+}
+
+.box1 div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.box1 div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.box1 .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.box1 .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
