@@ -1,9 +1,9 @@
 # Frontend-CSS-Lessons
-My_Frontend || Cascading Style Sheets || 7 - Lesson
+My_Frontend || Cascading Style Sheets || 8 - Lesson
 
 ## Screenshots
 
-![Lesson - 7](./img/img.jpg)
+![Lesson - 8](./img/img.jpg)
 
 ## Tech Stack
 

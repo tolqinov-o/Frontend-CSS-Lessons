@@ -21,3 +21,75 @@
     text-transform: uppercase;
     color: #4CAF50;
 }
+
+.box0 {
+    width: 97%;
+    height: 30vh;
+}
+
+.box0 .img {
+    width:170px;
+    height:170px;
+    margin-left:15px;
+    float: right;
+}
+
+.box1 span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+}
+
+.box1 span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+}
+
+.box1 span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+}
+
+.nav {
+    background-color: yellow; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.box3 div {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+}
+
+.box3 .img1 {
+    float: right;
+}
+
+.box3 .img2 {
+    float: right;
+}
+
+.box3 .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
